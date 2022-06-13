@@ -142,10 +142,11 @@ section.Present{
 .ayuda{
     background: #F5F5F5;
 }
-/*media (max-width: 1000px)
+@media (max-width: 1000px){
 section{
     padding: 100px 50px;
-}*/
+  }
+}
 section{
     display: flex;
     flex-direction: column;
@@ -330,4 +331,22 @@ ul.grid {
         width: 180px;
         height: auto;
         border-radius: 20px;
+    }
+
+    /*************FIN**********/
+    /******** Section: Testimonio ******/
+    .Testimonio{
+        background: #F5F5F5;
+    }
+
+    .Ttitle{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    ul.Tgrid{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
