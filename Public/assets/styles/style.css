@@ -1,4 +1,7 @@
 /******La parte de menu*******/
+html{
+  scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat';
     background: #757575;
